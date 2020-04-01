@@ -6,12 +6,12 @@
  * Date: 2019/10/11
  * Time: 20:54
  */
-namespace OpenSDK\PinDuoDuo;
+namespace OpenSDK\ITaoKe;
 
-use OpenSDK\PinDuoDuo\Libs\Format;
-use OpenSDK\PinDuoDuo\Libs\Http;
-use OpenSDK\PinDuoDuo\Interfaces\Request;
-use OpenSDK\PinDuoDuo\Libs\Signer;
+use OpenSDK\ITaoKe\Libs\Format;
+use OpenSDK\ITaoKe\Libs\Http;
+use OpenSDK\ITaoKe\Interfaces\Request;
+use OpenSDK\ITaoKe\Libs\Signer;
 
 class OauthClient
 {
@@ -21,7 +21,7 @@ class OauthClient
      *
      * @var string
      */
-    public $gateway = 'http://open-api.pinduoduo.com/oauth/token';
+    public $gateway = 'http://open-api.ITaoKe.com/oauth/token';
 
     /**
      * 是否需要签名

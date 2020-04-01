@@ -8,8 +8,8 @@
 ~~~php
 require 'vendor/autoload.php';
 
-use OpenSDK\PinDuoDuo\Client;
-use OpenSDK\PinDuoDuo\Requests\DdkCmsPromUrlGenerateRequest;
+use OpenSDK\ITaoKe\Client;
+use OpenSDK\ITaoKe\Requests\DdkCmsPromUrlGenerateRequest;
 
 $c = new Client();
 $c->appKey = 'You are appKey';

@@ -6,7 +6,7 @@
  * Date: 2019/9/23
  * Time: 10:03
  */
-namespace OpenSDK\PinDuoDuo\Interfaces;
+namespace OpenSDK\ITaoKe\Interfaces;
 
 
 interface Request
@@ -15,6 +15,6 @@ interface Request
     /**
      * 获取参数
      */
-    public function getParams();
+    public function getApiParas();
 
 }
