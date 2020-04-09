@@ -89,8 +89,8 @@ class Client
         $sysParams["sign_method"] = $this->signMethod;
         $sysParams["method"] = $request->getApiMethodName();
         $sysParams["timestamp"] = time();
-//        $sysParams["domain"] = $_SERVER['SERVER_NAME'];
-//        $sysParams["client"] = $this->getip();
+        $sysParams["domain"] = $_SERVER['SERVER_NAME'];
+        $sysParams["client"] = $this->getip();
         $sysParams["partner_id"] = $this->sdkVersion;
 
 //        if (null != $session){
