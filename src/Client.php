@@ -125,8 +125,7 @@ class Client
             $this->result = $respObject;
 
         }catch (\Exception $e){
-
-            $this->result = [];
+            return $e->getMessage();
 
         }
 
