@@ -13,9 +13,9 @@ use OpenSDK\ITaoKe\Requests\ItaokeRobotCreateGetRequest;
 class ItaokeRobotCreateGetTest
 {
 
-    private $appKey = '1093857297';
+    private $appKey = '1068747778';
 
-    private $appSecret = '394da7af-13d1-c653-99d3-a03554f0ccb8';
+    private $appSecret = '4bdf8268-3648-7c95-8940-d11e71cd1f2d';
 
     public function __invoke()
     {
